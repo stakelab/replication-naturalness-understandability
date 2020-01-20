@@ -1,0 +1,340 @@
+1. E-mail address: <insert your email address>
+2. I consent to the processing of personal data, which will be used only for scientific research: Yes/No
+
+Tell us about yourself
+
+3. Name and surname: <insert your name and surname>
+
+4. Occupation:
+	- Bachelor student
+	- Master student
+	- Ph.D. student
+	- Research
+	- Industrial developer
+	- Other:
+
+5. Years of experience in programming: <enter the number of years of experience in numerical format>
+
+6. Years of experience in Java programming: <enter the number of years of experience in numerical format>
+
+Knowledge on selected topics
+
+Knowledge on Collection
+
+7. How well do you know Collection?
+	- No knowledge
+	- 1 (Superficial knowledge)
+	- 2
+	- 3
+	- 4
+	- 5 (Complete knowledge)
+
+8. What is a collection?
+	- An object that groups multiple elements into a single unit
+	- None of the above
+	- A set of elements
+	- A gathering of books under the same title at the same publisher
+
+9. What is a Collections Framework?
+	- None of the above
+	- A unified architecture for representing and manipulating collections
+	- A set of algorithms to have different implementations
+	- A set of APIs for manipulating data
+
+10. What does the collections framework contain?
+	- None of the above
+	- Array, String and Integer
+	- List, HashMap and Array
+	- Interfaces, Implementations and Algorithms of collections
+
+11. Which class allows to write duplicate elements?
+	- HashMap
+	- ArrayList
+	- None of the above
+	- Set
+
+12. How are the equalities with the HashSet class managed?
+	- Through methods hashCode() and equals()
+	- Through the method equals()
+	- Through the operator "=="
+	- None of the above
+
+Knowledge on reading and writing files
+
+13. How well do you know reading and writing files?
+	- No knowledge
+	- 1 (Superficial knowledge)
+	- 2
+	- 3
+	- 4
+	- 5 (Complete knowledge)
+
+14. What is a file?
+	- None of the above
+	- A sheet of handwritten paper
+	- A container of numbers and letters
+	- A container of data in digital format
+
+15. How do I refer to a file in a Java project?
+	- Using “File -> Import File...”
+	- Using drag and drop
+	- None of the above
+	- Through its path
+
+16. What is a stream?
+	- A flow of integers between an input source and output destination
+	- A flow of bytes between an input source and output destination
+	- A temporary file
+	- None of the above
+
+17. After the creation to a generic reference to a file, what should you do?
+	- InputStream f = new FileInputStream(file);
+	- None of the above
+	- OutputStream f = new File(file);
+	- File f = new File("C:/java/prova.txt");
+
+18. What is the method to release any system resources associated with the file?
+	- close()
+	- flush()
+	- finalize()
+	- terminate()
+
+Knowledge on threads
+
+19. How well do you know threads?
+	- No knowledge
+	- 1 (Superficial knowledge)
+	- 2
+	- 3
+	- 4
+	- 5 (Complete knowledge)
+
+20. What is a multi-threaded program?
+	- A single task that is performed multiple times
+	- A program with two or more parts of code that can be run concurrently
+	- A program with two or more parts of code that can be run sequentially
+	- None of the above
+
+21. Is there the possibility of putting the thread waiting for a given time?
+	- No, it is not possible to specify the waiting time of a thread
+	- Yes, with the state Waiting
+	- Yes, with the state Timed Waiting
+	- Yes, with the state Terminated
+
+22. Where is the business logic of a thread?
+	- In the method Thread()
+	- In the method run()
+	- None of the above
+	- In the method start()
+
+23. Can thread priorities guarantee the order in which threads execute?
+	- Yes, but only using MAX_PRIORITY
+	- Yes, but only using MIN_PRIORITY
+	- Yes, always
+	- No, never
+
+24. With which method a thread can temporarily pause and allow other threads to execute, without specifying a fixed amount of time?
+	- None of the above
+	- setPriority()
+	- yield
+	- sleep
+
+Knowledge on the Swing GUI
+
+25. How well do you know the Swing GUI?
+	- No knowledge
+	- 1 (Superficial knowledge)
+	- 2
+	- 3
+	- 4
+	- 5 (Complete knowledge)
+
+26. What is SWING?
+	- A set of extensible GUI components to create Java based Front End/GUI Applications
+	- A dance performed by Java programmers
+	- None of the above
+	- A set of Components to create Java based Back End
+
+27. What is JTextArea object?
+	- A text component that allows for the editing of a single line of text
+	- A component for placing text in a container
+	- None of the above
+	- A text component that allows editing of a multiple lines of text
+
+28. What is Event Handling?
+	- The method that manages the creation of the GUI
+	- The mechanism that controls the event and decides what should happen if an event occurs
+	- The change in the state of an object
+	- None of the above
+
+29. What does the Event Handling use as key participants?
+	- Listener
+	- Implementations
+	- Interfaces
+	- None of the above 
+
+30. How is the Component class hierarchy composed?
+	- JComponent, Component and Container
+	- Component, Container and JComponent
+	- None of the above
+	- Container, Component and JComponent
+
+Knowledge on sockets
+
+31. How well do you know sockets?
+	- No knowledge
+	- 1 (Superficial knowledge)
+	- 2
+	- 3
+	- 4
+	- 5 (Complete knowledge)
+
+32. What is a socket?
+	- A communication mechanism between two computers using TCP
+	- None of the above
+	- A power point
+	- A communication mechanism between two computers using UDP
+
+33. What represents Server Socket?
+	- A text component that allows for the editing of a single line of text
+	- A component for placing text in a container
+	- None of the above
+	- A text component that allows editing of a multiple lines of text
+
+34. What does the method getLocalPort of the Socket class return?
+	- It returns the port that the server socket is listening on
+	- It returns the port the socket is bound to on the remote machine
+	- It returns the port the socket is bound to on the local machine
+	- None of the above
+
+35. How are IP addresses represented?
+	- Through the Socket Class
+	- None of the above
+	- Through the InetAddress Class
+	- Through the ServerSocket Class 
+
+36. Which method allows to return an InetAddress object given the network address?
+	- static InetAddress getByAddress(String host, byte[] addr)
+	- static InetAddress getByAddress(byte[] addr)
+	- None of the above
+	- static InetAddress getByName(String host)
+
+Knowledge on JDBC
+
+37. How well do you know JDBC?
+	- No knowledge
+	- 1 (Superficial knowledge)
+	- 2
+	- 3
+	- 4
+	- 5 (Complete knowledge)
+
+38. What is the acronym of JDBC?
+	- Java Database Connectivity
+	- Java Dumb Connectivity
+	- None of the above
+	- Java Database Collection
+
+39. What does JDBC combine?
+	- None of the above
+	- Java + SQL
+	- Java + MDX
+	- Java + XQuery
+
+40. Why are JDBC Drivers used?
+	- None of the above
+	- To open database connections
+	- To interact with the database
+	- To open database connections and to interact with it
+
+41. How are IP addresses represented?
+	- Through the Socket Class
+	- None of the above
+	- Through the InetAddress Class
+	- Through the ServerSocket Class 
+
+42. To clean-up environment, which resources should be closed?
+	- None of the above
+	- Connection
+	- Connection and Statement
+	- Connection, Statement and ResultSet
+
+Knowledge on servlet
+
+43. How well do you know servlet?
+	- No knowledge
+	- 1 (Superficial knowledge)
+	- 2
+	- 3
+	- 4
+	- 5 (Complete knowledge)
+
+44. What are servlets?
+	- None of the above
+	- Programs in Python language that run on an Application server and act as a middle layer between a requests coming from a Web browser and database on the HTTP server
+	- Programs in Java language that run on a Application server and act as a middle layer between a requests coming from a Web browser and database on the HTTP server
+	- Programs in C language that run on a Application server and act as a middle layer between a requests coming from a Web browser and database on the HTTP server
+
+45. What is the correct list of components in the Servlets Architecture?
+	- Web Server, HTTP Request, Servlet Program Database
+	- Web Browser, HTTP Protocol, HTTP Server, Servlet Program, Database
+	- None of the above
+	- Web Server, HTTP Client, Servlet Program, Database
+
+46. With which method the client send data of unlimited length to the Web Server a single time?
+	- doPost()
+	- doHead()
+	- None of the above
+	- doPut()
+
+47. What is the return type of the method getHeader of the class HttpServletRequest?
+	- A list
+	- None of the above
+	- A string
+	- An instance of the class Header
+
+48. What is the method that allow to handle requests coming from the client and to write the formatted response back to the client?
+	- run()
+	- init()
+	- None of the above
+	- service()
+
+Knowledge on Reflection
+
+49. How well do you know Reflection?
+	- No knowledge
+	- 1 (Superficial knowledge)
+	- 2
+	- 3
+	- 4
+	- 5 (Complete knowledge)
+
+50. What does Reflection APIs allow?
+	- An access to a webcam for reflecting its own image in it
+	- None of the above
+	- A programmatic access to information about the fields, methods and constructors of loaded classes
+	- To read the mind of the programmer for writing the code automatically
+
+51. What is the base class for the reflection?
+	- AccessibleObject
+	- None of the above
+	- AnnotatedElement
+	- Object
+
+52. What is a reflected field?
+	- A reflected field may be a static method or an instance method
+	- None of the above
+	- A reflected field may be any class
+	- A reflected field may be a class static field or an instance field
+
+53. What is ClassLoader?
+	- ClassLoader is a part of the Java Runtime Environment that statically loads Java classes into the JVM
+	- None of the above
+	- ClassLoader is a part of the Java Runtime Environment that loads generic files in compile time
+	- ClassLoader is a part of the Java Runtime Environment that dynamically loads generic files
+
+54. What does the Array class allow?
+	- The Array class permits widening conversions to occur during a set operation
+	- None of the above
+	- The Array class permits widening conversions to occur during a get or set operation
+	- The Array class permits to collect more elements
