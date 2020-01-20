@@ -1,0 +1,1312 @@
+HanLP-master_CoreBiGramTableDictionary_3
+	What does the variable "in" of this method do?
+		The variable "in" reads Java objects wrapped in InputStream.
+		The variable "in" reads any types of objects wrapped in InputStream.
+		The variable "in" reads raw bytes.
+		The variable "in" reads the content of a file as a stream of bytes.
+	
+	What is the main responsibility of the method "loadDat"?
+		This method loads data from a file and returns true if the execution is correct.
+		This method loads data from a file and returns true if the execution generates a warning.
+		This method reads only from the file.
+		This method write on the file.
+
+	What does the method "readObject" of the class "java.io.ObjectInputStream" return?
+		The object read from the stream.
+		A string of the object read from the stream.
+		A sequence of bytes read from the stream.
+		None of the others.
+
+guice-master_GuiceFilter_3
+	Which of the following claims about the variable "originalRequest" is correct?
+		If the condition is true, the variable is equal to the original request.
+		If the condition is true, the variable is equal to the actual request.
+		The variable is the set of the original request and the actual request.
+		If the condition is false, the variable is equal to the original request.
+
+	What is the main responsibility of the method "doFilter"?
+		This method allows the filtering to stabilize a new connection.
+		This method allows the filtering for the closing of the connection.
+		This method allows the beginning of the connection.
+		None of the others. 
+
+	What does the method "getOriginalRequest" of the class "GuiceFilter" return?
+		A request of HttpServletRequest type.
+		A request of ServletRequest type.
+		An URL.
+		An IP address.
+
+guice-master_ManagedServletPipeline_6
+	What is the meaning of the variable "requestToProcess" of this method?
+		An object that wraps the request of the servlet with a string of the new request uri or only the request of the servlet.
+		An object that wrap the request of the servlet with the new request uri or only the request of the servlet.
+		The request of the servlet.
+		The set of the request of the servlet and the new request uri.
+		
+	What does the method "wrapRequest" of the class "ManagedServletPipeline" return?
+		An object of type HttpServletRequest.
+		An object of type ServletRequest.
+		An object of type ServletDefinition.
+		An object of type HttpServletRequestWrapper.
+
+	What does the method "resetBuffer" of the interface "javax.servlet.ServletResponse" do?
+		Clears the content of the underlying buffer in the response without clearing headers or status code.
+		Clears the content of the underlying buffer in the response with clearing headers or status code.
+		Clears the content of the underlying buffer in the request without clearing headers or status code.
+		Clears the content of the underlying buffer in the request with clearing headers or status code.
+
+guice-master_MoreTypes_6
+	What do the variables "a" and "b" represent?
+		The commons superinterface for all types in the Java programming language.
+		The commons superinterface for parameterized types in the Java programming language.
+		The commons superinterface for some types in the Java programming language.
+		The commons superinterface for array type in the Java programming language.
+
+	What does the method "getUpperBounds" of the interface "java.lang.reflect.WildcardType" return?
+		An array of Type objects representing the one or more upper bound of this type variable.
+		A single upper bound.
+		An array of ParameterizedType objects representing the one or more upper bound of this type variable.
+		An array of WildcardType objects representing the one or more upper bound of this type variable.
+
+	What does the method "getGenericDeclaration" of the interface "java.lang.reflect.TypeVariable<D>" return?
+		The generic declaration declared for a given type variable.
+		The generic declaration declared for a given type.
+		The declaration declared for a given type variable.
+		The declaration declared for a given type.
+
+guice-master_SingleMethodInjector_1
+	What does the constant "method" of this method do?
+		Provides information and access about a single method on a class or interface.
+		Provides information and access about a single method on an interface.
+		Provides information and access about a single method on a class.
+		Provides information and access about a multiple methods on a class or interface.
+
+	What type return the method "getModifiers" of the class "SingleMethodInjector"?
+		The set of modifiers represented by an integer with distinct bit positions representing different modifiers.
+		The set of modifiers represented by a string in a double.
+		The set of modifiers represented by a converted string in a double.
+		The set of modifiers represented by a converted string in an integer, where the string is the representation of a byte.
+
+	What does the method "getDeclaringClass" of the class "java.lang.reflect.Method" return?
+		A Class object representing the declaring class or interface of the underlying member.
+		A list of classes declared.
+		A name of the class declared.
+		A list of classes or interfaces declared.
+
+HikariCP-dev_MockDataSource_10
+	What does the "statement" represent?
+		A statement SQL.
+		An instruction written in a high-level language.
+		A statement Java.
+		A statement in C.
+
+	What does the method "getAutoCommit()" of the interface "java.sql.Connection" return?
+		A boolean.
+		An integer between 0 and 1.
+		An integer.
+		A string.
+		
+	What does this call "mockConnection.prepareStatement(anyString(), anyInt(), anyInt(), anyInt())" of this method return?
+		Creates a PreparedStatement object for sending SQL statement to the database.
+		Creates a PreparedStatement object for sending parameterized SQL statement to the database.
+		Creates a PreparedStatement object that will generate ResultSet objects with the given type and concurrency.
+		Creates a PreparedStatement object that will generate ResultSet objects with the given type, concurrency, and holdability.
+
+HikariCP-dev_PoolBase_13
+	What is the variable "connection" of this method?
+		A global constant.
+		A constant as a parameter.
+		A local constant.
+		A variable.
+	
+	What does the method "getAndSetNetworkTimeout" of the class "PoolBase" return?
+		It returns 0 or the timeout original.
+		It returns 0.
+		It returns the timeout original in seconds.
+		It returns the timeout original in minutes.
+
+	Which parameters do we pass to the method "setTransactionIsolation" of the interface "java.sql.Connection"?
+		An integer for attempt to change the transaction isolation level.
+		A string for attempt to change the transaction isolation level.
+		A double for attempt to change the transaction isolation level.
+		A boolean for attempt to change the transaction isolation level.
+
+Hystrix-master_FallbackMethod_7
+	What does the variable "commandParametrizedType" represent in the statement "Type commandParametrizedType = commandMethod.getGenericReturnType();" of this method?
+		A Type object that represent the formal return type of the method represented from the variable "commandMethod".
+		A Type object that represent the formal parameter types, in declaration order, of the method represented from the variable "commandMethod".
+		A Type object that represent the formal return type of the method, in declaration order, represented from the variable "commandMethod".
+		A Type object that represent the formal parameter types of the method represented from the variable "commandMethod".
+
+	When is invoked the method "getFirstParametrizedType" of the class "FallbackMethod"?
+		When the underlying method returns a parametrized type.
+		When the underlying method returns a parameter.
+		When the underlying method returns a generic type.
+		When the underlying method returns a constant.
+
+	What does the method "getReturnType" of the class "java.lang.reflect.Method" return?
+		A Class object.
+		A Type object.
+		An array of Class objects.
+		An Object. 
+
+
+Hystrix-master_FallbackMethod_16
+	What is the word expansion for the acronyms "wt1" and "wt2"?
+		WildcardType.
+		WebType.
+		WordlwideType.
+		WildType.
+	
+	In the case of generic declaration, what need to compare?
+		Whole Type objects.
+		Only few type properties.
+		All type properties.
+		None of the others.
+
+	When does the method "getActualTypeArguments" of the interface "java.lang.reflect.ParameterizedType" return an empty array?
+		If the type represents a non-parameterized type.
+		If the type represents a parameterized type.
+		If the type represents a generic type.
+		If the type represents a annotated type.
+
+incubator-druid-master_LocalDataSegmentKiller_1
+	What does the variable "parentDir" of this method represent?
+		The abstract pathname of a given abstract pathname's parent, or null if the pathname does not call a parent directory.
+		The pathname of a given pathname's parent, or null if the pathname does not call a parent directory.
+		A value null.
+		A string of the pathname.
+
+	What does the statement "path.getName().endsWith(".zip")" do?		
+		Verify if a given file contains the extension ".zip" and returns a boolean.
+		Verify if a given string contains the extension ".zip" and returns a boolean.
+		Add at the end of the file's name the extension ".zip", if this is not present.
+		Delete at the end of the file's name the extension ".zip", if this is not present.
+
+	What does the method "delete" of the class "java.io.File" return?	
+		A boolean.
+		A string.
+		An integer.
+		A warning.	
+
+incubator-druid-master_RedirectFilter_2
+	What does the variable "chain" of this method represent?
+		An object of the servlet container to the developer giving a view into the invocation chain of a filtered request for a resource.
+		An object of the servlet container to the developer giving a view into the invocation chain of a filtered response for a resource.
+		An object to perform filtering tasks on the request to a resource.
+		An object to perform filtering tasks on the request to a resource, or on the response from a resource, or both.
+
+	What is the main responsibility of the method "doFilter"?		
+		Override the original method doFilter of the interface "javax.servlet.Filter".
+		Override the original method doFilter of the interface "javax.servlet.FilterChain".
+		Override the original method doFilter of the interface "javax.servlet.FilterConfig".
+		Override the original method doFilter of the interface "javax.servlet.ServletConfig".
+
+	What is the query string returned by the method "getQueryString" of the interface "javax.servlet.http.HttpServletRequest"?
+		The query string contained in the request URL after the path.
+		The query string contained in the request URI.
+		The query string SQL.
+		The query string contained in the request URL before of the path.
+
+incubator-druid-master_SQLMetadataSegmentManager_1
+	Which of the following claims about the variable "writeLock" is correct?
+		Controls the access to a shared resource by multiple threads.
+		Controls the access to a local resource by only a thread.
+		Controls the access to a shared resource by only a thread.
+		Controls the access to a local resource by multiple a thread.
+
+	What does the method "isStarted" of the class "SQLMetadaSegmentManager" return?		
+		A boolean.
+		A string.
+		A warning.
+		An integer.
+
+	What does the method "scheduleWithFixedDelay" of the interface "java.util.concurrent. ScheduledExecutorService" allow?
+		Creates and executes a periodic action that is enabled first after the given initial delay, and after with the delay between the termination of one execution and the init of the next.
+		Creates only a periodic action.
+		Creates and executes a periodic action that is enabled to the second execution.
+		Creates and executes a periodic action that is enabled first after the given initial delay, and after with the delay between the two subsequent executions.
+
+hadoop-trunk_CallQueueManager_4
+	What is the meaning of the variable "ctor" of this method?
+		Constructor.
+		Configurator.
+		Creator.
+		Curator.
+
+	What is the main responsibility of the method "createCallQueueInstance"?
+		Create a queue of instances.
+		Create a list of constructor.
+		Create a queue of constructor.
+		Create a set of instances.
+
+	What does the method "newInstance" of the class "java.lang.reflect.Constructor" do?
+		The method "newInstance" create and initialize a new instance of the constructor's declaring class, with the specified initialization parameters.
+		The method "newInstance" create and initialize a new instance of the constructor of any class, with the specified initialization parameters.
+		The method "newInstance" create and initialize a new instance of the constructor's declaring class.
+		The method "newInstance" create and initialize a new instance of the constructor of any class.
+
+hadoop-trunk_DBInputFormat_9
+	What is the type of the variable "connection" of this method?
+		Connection.
+		Statement.
+		ResultSet.
+		Driver.
+
+	What does the method "getCountQuery()" of the class "DBInputFormat" return in the statement "results = statement.executeQuery(getCountQuery());"?
+		A query.
+		The number of rows of the query's result.
+		A total number of rows.
+		A total number of columns.
+	
+	What has the call of the method "connection.close()" replaced?
+		With the method "closeConnection()".
+		With the method "exit()".
+		With two instructions: "results.close()" and "statement.close()".
+		With the instruction "results.close".
+
+hadoop-trunk_HamletGen_8
+	Which of the following claims about the variable "params" is correct?
+		An array of Type.
+		A Type.
+		A GenericArrayType.
+		None of the others.
+
+	What does the method "throwUnhandled" of the class "HamletGen" return?
+		A new exception.
+		A shutdown.
+		A crash.
+		A bug.
+
+	What does the method "getTypeName" of the interface "java.lang.reflect.Type" return?
+		A string describing a given type with information on any type parameters.
+		A string describing a given type without information on any type parameters.
+		A string describing a given type with information on any generic type.
+		A string describing a given type without information on any generic type.
+
+hadoop-trunk_MiniKdc_1
+	What does the variable "r" of this method represent?
+		A bridge from byte streams to character streams.
+		A bridge from File to byte streams.
+		A bridge from byte streams to integer streams.
+		A bridge from File to integer streams.
+
+	What does the statement "r.close()" of this method do?
+		Closes the stream and releases any its system resources.
+		Closes the stream.
+		Releases any its system resources. 
+		Send a message for the closing of the stream.
+
+	What does the statement "new InputStreamReader(new FileInputStream(file), StandardCharsets.UTF_8)" of this method create?
+		Creates an InputStreamReader that uses the given charset.
+		Creates an InputStreamReader that uses the named charset.
+		Creates an InputStreamReader that uses the given charset decoder.
+		Creates an InputStreamReader that uses the named charset decoder.
+
+hadoop-trunk_MountTableResolver_8
+	Which of the following claims about the variable "oldEntries" is correct?
+		A set of entries of String type.
+		A string.
+		A string joined of entries.
+		A map of entries.
+	
+	What is the main responsibility of the method "refreshEntries"?
+		Updates the entries and the needed caches.
+		Updates the entries.
+		Updates the needed caches.
+		Creates a new collection of entries.
+
+	If a key is present in a map, what does the method "put" of the interface "java.util.Map" do?
+		Overwrites the value of the key present in the map.
+		Inserts this value with the same key in the map 
+		Inserts key and value with an unique ID in the map.
+		None of the others.
+
+hadoop-trunk_NativeIO_7
+	What is the acronym of the variable "fd" of this method?
+		FileDescriptor.
+		FileData.
+		FileDouble.
+		FileDate.
+
+	What are the parameter of the method "getCreateForWriteFileOutputStream" of the class "NativeIO"?
+		A file and a number for permissions.
+		A file and an ID of a given user.
+		A string of the path and a number for permissions.
+		A string of the path and an ID of a given user.
+
+	What does the method "getCanonicalPath" of the class "java.io.File" return?
+		A String.
+		A File.
+		A set of informations.
+		A raw data.
+
+hadoop-trunk_NMClientAsyncImpl_3
+	What is the type of the object "threadPool" of this method?
+		ThreadPoolExecutor.
+		ThreadGroup.
+		ThreadLocalRandom.
+		Thread.
+
+	Why is used the method "join" of the class "java.lang.Thread"?
+		To wait the death of the thread.
+		To wait the death of the thread for a limited time.
+		To merge data from more thread.
+		To set the thread in sleep mode.
+
+	What is the action of the method "shutdownNow" of the class "java.util.concurrent.ThreadPoolExecutor"?
+		This method attempts to stop all actively executing tasks and the processing of waiting tasks. Finally, returns a list of the tasks in execution.
+		This method attempts to stop all passively executing tasks and the processing of waiting tasks. Finally, returns a list of the tasks in execution.
+		This method attempts to stop all actively executing tasks and returns a list of the tasks in waiting.
+		This method attempts to stop all passively executing tasks and returns a list of the tasks in waiting.
+
+hadoop-trunk_OzoneAddress_1
+	What does the variable "ozoneURI" of this method represent?
+		Represents an Uniform Resource Identifier reference.
+		Represents an Unique Resource Identifier reference.
+		Represents an Uniform Raw Identifier reference.
+		Represents an Uniform Resource ID reference.
+		
+	What does the method "getAuthority" of the class "java.net.URI" return?
+		Returns the decode authority component of the variable "ozoneURI" of this method.
+		Returns the raw authority component of the variable "ozoneURI" of this method.
+		Returns the decode authority component for this method.
+		Returns the raw authority component for this method.	
+
+	What is the meaning of "-1" in the statement "ozoneURI.getPort() == -1" of this method?
+		Undefined.
+		Unknown.
+		Not Found.
+		Null.
+
+hadoop-trunk_S3xLoginHelper_6
+	What is the acronym of "fsUri" of this method?
+		FileSystemUri.
+		FileSocketUri.
+		FileServletUri.
+		FileStringUri.
+
+	What does the method "canonicalizeUri" of the class "S3xLoginHelper" return?
+		An URI without login information.
+		A new URI.
+		An URI with login information.
+		An URI without user information.
+	
+	What does the method "getScheme" of the class "java.net.URI" return?
+		A scheme component of this URI.
+		A raw scheme component of this URI.
+		A boolean.
+		A table.
+		
+hadoop-trunk_TimelineReaderWebServices_8
+	What is the word of the abbreviation "req" of this method?
+		Request.
+		Requests.
+		Requery.
+		None of the others.
+	
+	What the code HTTP for return a set of entities that match the given parameters in this method?
+		HTTP 200.
+		HTTP 400.
+		HTTP 404.
+		HTTP 500.
+
+	What is HttpServletResponse?
+		The extension of the ServletResponse interface to provide HTTP-specific functionality in sending a response.
+		The extension of the ServletResponse interface to provide a specific functionality in sending a response. 
+		A new interface to provide HTTP-specific functionality in sending a response.
+		A new interface to provide HTML-specific functionality in sending a response.
+
+
+hadoop-trunk_TimelineReaderWebServices_25
+	What is the word of the abbreviation "res" of this method?
+		Response.
+		Responses.
+		Restart.
+		None of the others.
+
+	What does this method "getFlowRunApps" return?
+		A list of apps for given user with flow name and flow run id.
+		A list of apps for given user without id and name.
+		A list of apps for given user without id.
+		A list of apps for given user without name.
+
+
+	What is HttpServletRequest?
+		The extension of the ServletRequest interface to provide request information for HTTP servlets.
+		The extension of the ServletRequestListener interface to provide request information for HTTP servlets.
+		The extension of the ServletRequest interface to provide request information for HTML servlets. 
+		A new interface to provide response information for HTTP servlets.
+
+hadoop-trunk_WhoClient_1
+	What does the variable "conn" of this method represent?
+		A URLConnection with support for HTTP-Specific features.
+		A URIConnection with support for HTTP-Specific features.
+		A Connection with support for HTTP-Specific features.
+		A URLConnection with support for some features.
+
+	What does this "main" run?
+		An example with an authenticated URL.
+		An example with URL.
+		An example with a not authenticated URL.
+		An example with three types of URL.
+	
+	What does the method "getResponseCode" of the class "java.net.HttpURLConnection" return?
+		An integer.
+		A File with the code.
+		A String of the code.
+		A boolean.
+
+jadx-master_AboutDialog_1
+	What does the variable "contentPane" of this method represent?
+		A generic AWT container object.
+		A generic SWING container object.
+		A generic UI container object.
+		A generic GUI container object.
+	
+	What does this method create?
+		Creates a user interface.
+		Creates a button.
+		Creates a panel with the text.
+		Print three label.
+
+	What does the call "Box.createRigidArea(new Dimension(0, 10))" of the class "java.Swing.Box" create?
+		Create an invisible component with a width of 0 and a height of 10.
+		Create an invisible component with a width of 10 and a height of 0.
+		Create a visible component with a width of 0 and a height of 10.	
+		Create a visible component with a width of 10 and a height of 0.
+
+jadx-master_TextStandardActions_1
+	What is the object "undoAction" of this method?
+		An Action object.
+		An AbstractAction object.
+		An implementation for the JFC Action interface.
+		An implementation for the AbstractAction interface.	
+
+	What does the method "cut" of the class "javax.swing.text.JTextComponent" do?
+		Transfers the currently selected range in the associated text model to the system clipboard, removing the contents from the model.
+		Transfers the currently selected range in the associated text model to the system clipboard, leaving the contents in the text model.
+		Transfers the contents of the system clipboard into the associated text model.
+		Transfers all ranges in the associated text model to the system clipboard
+		
+	What is the main responsibility of the method "initActions"?
+		Adds all actions.
+		Adds all buttons.
+		Adds all key actions.
+		Adds all popups.
+
+jenkins-master_JSF_1
+	What is the acronym of the variable "hc" of this method?
+		HttpConnection.
+		HttpURLConnection.
+		HttpConnect.
+		HttpClose.
+
+	What does the method's call "encode" in reference to the statement "URLEncoder.encode(Base64.encodeBase64String(data), "US-ASCII")"?
+		Translates a not chuncked bynary data using the base64 algorithm in US-ASCII.
+		Translates a chuncked bynary data using the base64 algorithm in US-ASCII.
+		Translates a chuncked string using the base64 algorithm in US-ASCII.
+		Translates a not chuncked string using the base64 algorithm in US-ASCII.
+	
+	What have in input the method "openConnection" of the class "java.net.URL"?
+		URL.
+		URI.
+		IP Address.
+		Proxy.
+
+jfreechart-master_LCBLayout_2
+	What is the object "Insets" of this method?
+		A representation of the borders of a container.
+		A representation of a text within of a container.
+		A representation of a button within  of a container.
+		A representation of a label within of a container.
+
+	What does the variable "vGap" of the class "LCBLayout" represent?
+		The vertical gap.
+		The gap between rows.
+		The gap between columns.
+		The vertical gap between two label.
+
+	What does method "getComponent" of the class "java.awt.Container" do?
+		Get the nth component, where n is "r * COLUMNS + c".
+		Get the component that contains the point "r * COLUMNS + c".  
+		Get the component with the label "r * COLUMNS + c".
+		None of the others.
+
+jfreechart-master_MarkerAxisBand_4
+	What does the variable "originalComposite" of this method represent?
+		Represents the draw primitive of the area "g2".
+		Represents the whole graphics of "g2".
+		Represents the data primitive of the area "g2". 
+		Represents the file with the skill of the area "g2".
+
+	In the method "getHeight" of the class "MarkerAxisBand" there is the variable "metrics", what does this variable represent?
+		The encapsulation of metrics associated to a run of text.
+		The list of lines of text.
+		The list of metrics in a file.
+		The encapsulation of metrics associated to a text.
+	
+	What is the difference between the objects "Rectangle2D" and "Rectangle2D.Double" of the package "java.awt.geom"?
+		"Rectangle2D" is a rectangle defined by a location and dimension and "Rectangle2D.Double" is a rectangle in double coordinates.
+		"Rectangle2D" is a rectangle defined by a location and dimension and "Rectangle2D.Double" is a rectangle in float coordinates.
+		"Rectangle2D" is a rectangle defined in float coordinates and "Rectangle2D.Double" is a rectangle in double coordinates.
+		None of the others.
+
+jfreechart-master_PeriodAxis_35
+	What are the information within of the variable "area" of this method?
+		The location (x, y) and the dimension of the rectangle with the depth.
+		The location (x, y) and the dimension of the rectangle without the depth.
+		Only the location.
+		Only the dimension.
+	
+	What is the action of this method?
+		Converts "value" to a coordinate in Java2D space, if the axis runs along one edge of "area". Finally, this return the new coordinate.
+		Converts "value" to a coordinate in Java2D space, if the axis runs along the right edge or the bottom edge of area. Finally, this return the new coordinate.
+		Converts "value" to a coordinate in Java2D space, if the axis runs along the left edge or the top edge of area. Finally, this return the new coordinate.
+		Converts "value" to a coordinate in Java2D space, if the axis runs along one edge of "area". Finally, this return the new coordinate.
+
+	How would you rename the method "getX()"?
+		With "getMinX()".
+		With "getAxisX()".
+		With "getLeftX()".
+		With "getRightX()".
+
+jfreechart-master_TextTitle_25
+	What is the word expansion for the acronym "g2"?
+		Graphic2D.
+		GraphicTwo.
+		GraphicDevice.
+		GraphicS.
+
+	What does the method "setPaint" of the class "TextTitle" do?
+		Sets the paint to modified the title string and registered listeners are notified for the change on the title.
+		Sets the paint to modified the title string.
+		Sets the color to modified the title string and registered listeners are notified for the change on the title.
+		Sets the paint to modified the title string and registered listeners are notified if the title is deleted.
+
+	What does this method include?
+		Clip, Transform, Paint and Composite.
+		Color, Transform, Paint and Composite.
+		Clip, TextArea, Paint and Composite. 
+		Clip, Transform, Paint and Component.
+
+libgdx-master_GradientPanel_2
+	Which of the following claims about the variable "colorPanel" is correct?
+		A container with a specific size.
+		A container without a specific size.
+		A component with a specific size.
+		A component without a specific size.
+
+	What does the method "public void mouseClicked (MouseEvent e)" within this method do?
+		Add a listener when you click on the "colorPanel" and you can choose a color, showing the initial color.
+		Add a listener when you enter in the "colorPanel" for set it with a given color.
+		Add a listener when you enter in the "colorPanel" for set it with a given color, showing the initial color.
+		Add a listener when you click on the "colorPanel" and you can choose a color.
+
+	In this case, what does the method "createMatteBorder" of the class "javax.swing.BorderFactory" create?
+		A matte-look border using a solid color.
+		A matte-look border using a color.
+		A matte-look border that consists of multiple tiles of a specified icon.
+		A matte-look border that consists of three tiles of a specified icon.
+
+vert.x-master_SSLHelper_10
+	Which of the following claims about the variable "trustMgr" is correct?
+		It manages the trust material to use it in trust decision and it allows the access of accepted credentials.
+		It manages the trust material to use it in untrusted decision and it allows the access of all credentials.
+		It manages the trust material to use it in untrusted decision and it allows the access of some credentials.
+		It manages the untrust material to use it in trust decision and it allows the access of all credentials.
+
+	What does this method "createUntrustRevokedCertTrustManager" allow?
+		It allows to control the provided certificates respect to the Certificate Revocation List.
+		It allows to control the identity of each user.
+		It allows to control the digital identity of each user through Facebook.
+		It allows to control the registration of each user.
+
+	What does the method "getAcceptedIssuers()" of the interface "java.net.ssl.X509TrustManager" control?
+		An array of certificate authority.
+		One certificate authority.
+		An ArrayList of certificate authority.
+		A file of certificare authority.
+
+symphony-master_UserQueryService_7
+	What is the meaning of the abbreviation "ret" of this method?
+		Return.
+		Retrieve.
+		Retired.
+		None of the others.
+
+	What does this method "getUserNamesByPrefix" return?
+		A list of JSONObject.
+		A JSONObject.
+		A JSONObject with a list.
+		An ArrayList.
+
+	What does the method "subList" of the interface "java.util.List<E>" do?
+		Returns a view of the portion of this list between "start", inclusive, and "end", exclusive.
+		Returns a view of the portion of this list between "start", exclusive, and "end", exclusive.
+		Returns a view of the portion of this list between "start", inclusive, and "end", inclusive.
+		Returns a view of the portion of this list between "start", exclusive, and "end", inclusive.
+
+netty-4.1_TypeParameterMatcher_3
+	What does the variable "typeParams" of this method represent?
+		An array of TypeVariable objects of the Class representing the superclass of the entity represent by currentClass.
+		An array of TypeVariable objects of the Class representing the superclass of the interface represent by currentClass.
+		An array of TypeVariable objects of the Class representing the superclass of the class represent by currentClass.
+		An array of TypeVariable objects of the Class representing the superclass of the primitive type represent by currentClass.
+
+	In the statement "actualTypeParam = ((ParameterizedType) actualTypeParam).getRawType()" of this method, on which variable does the cast play?
+		Only on the variable "actualTypeParam".
+		On the returned Type object of the method "getRawType".
+		On the returned Type[] object of the method "getRawType".
+		None of the others.
+
+	What does the method "getGenericSuperclass" of this class "java.lang.Class<T>" return?
+		The Type representing the direct superclass of the entity represented by this Class.
+		The Type representing the superclass of the entity represented by this Class.
+		The Type representing the direct superclass of the class represented by this Class.
+		The Class representing the superclass of the class represented by this Class.
+
+retrofit-master_Utils_5
+	What are subinterfaces of the variable "type" in this method?
+		Type.
+		Class<T>.
+		Class<?>.
+		ParameterizedType.
+		
+
+	In the statement "return getRawType(((WildcardType) type).getUpperBounds()[0]);" of this method, what is called as method?
+		It calls another method of the class "Utils".
+		It calls its same method.
+		It calls a method of the class java.lang.reflect.Type.
+		It calls a method of the class java.lang.reflect.ParameterizedType.
+
+	What do the method "getGenericComponentType()" of the interface "java.lang.reflect.GenericArrayType" return?
+		Type.
+		GenericArrayType.
+		GenericType.
+		GenericComponentType.
+
+selenium-master_SimplePropertyDescriptor_4
+	What is the object of the variable "m" of this method?
+		A reflected method.
+		A recursive method.
+		A modifier method.
+		A mutator method.
+	
+	What can the statement "writeMethod != null ? writeMethod : descriptor.getWriteMethod()))" of this method do?
+		If the condition is true, it can set the variable "writeMethod" equal to "writeMethod".
+		It can set the variable "writeMehod" to null.
+		It can set the variable "writeMethod" equal to "descriptor.getWriteMethod()"
+		If the condition is true, it can set the variable "writeMethod" equal to "descriptor.getWriteMethod()"
+
+	What can the method "getMethods" of the class "java.lang.Class<T>" returns?
+		An array with Method objects reflects all the public methods of the class or interface represented by this Class object.
+		An array with Method objects reflects some the public methods of the class or interface represented by this Class object.
+		An array with Method objects reflects some the public methods of the class represented by this Class object.
+		An array with Method objects can reflects only some the public methods of the interface represented by this Class object.
+		
+spring-framework-master_SerializableTypeWrapper_4
+	Which of the following claims about the variable "handler" is correct?
+		It is the interface implemented by the invocation handler of a proxy instance.
+		It is the interface to manage the invocation.
+		It is the interface implemented by the invocation handler of a instance. 
+		It is the interface implemented by the invocation handler of a class.
+	
+	What does this method "forTypeProvider" return?
+		A Serializable Type supported by a TypeProvider.
+		A TypeProvider supported by a Serializable Type.
+		A Type supported by a TypeProvider.
+		A TypeProvider supported by a Type.
+
+	What does the method "newProxyInstance" of the class "java.lang.reflect.Proxy" return?
+		A proxy instance with the specified invocation handler of a proxy class defined by a class loader.
+		An instance with the specified invocation handler of a proxy class defined by a class loader. 
+		A proxy instance with the specified handler of a class defined by a class loader.
+		A proxy instance with any invocation handler of a proxy class defined by a class loader.
+
+spring-framework-master_UriComponentsBuilder_17
+	What is the acronym of the variable "uri" of this method?
+		Uniform Resource Identifier.
+		Uniform Resource Identity.
+		Unique Resource Identifier.
+		Unique Raw Identifier.
+
+	What does the method "addPath" of the class "UriComponentsBuilder" do?
+		Add path and modify the path if it is necessary.
+		Add path.
+		Add path in a file.
+		Create a list of the path. 
+
+	What does the method "getRawUserInfo" of the class "java.net.URI" return?
+		A String with the raw user-information component of the URI.
+		A file with the raw user-information component of the URI.
+		An object with the raw user-information component of the URI.
+		A String with the user-information component of the URI.
+	
+spring-framework-master_RequestMappingHandlerAdapter_40
+	What does the variable "session" of this method represent?
+		A way to identify a user across one page request or visit to a Web site and to store information about that user.
+		A way to identify a user across one page request and visit to a Web site and to store information about that user.
+		A way to identify a user across the visit to a Web site.
+		A way to visit to a Web site.
+	
+	What does the method "invokeHandlerMethod" of the class "RequestMappingHandlerAdapter" do?
+		If the view resolution is required, it invokes the handler method for do a ModelAndView.
+		If the view resolution is accepted, it invokes the handler method for do a payment.
+		If the view resolution is required, it invokes the handler method for do a MVC.
+		If the view resolution is accepted, it invokes the handler method for do a ModelAndView.
+
+	What does the method "containsHeader" of the "javax.servlet.http.HttpServletResponse" interface returns?
+		A boolean indicating if named response header has been set.
+		A boolean indicating if all response header has been set.
+		A boolean indicating if named response header must be set.
+		A boolean indicating if a response header has been set.
+
+spring-framework-master_MultipartFilter_3
+	What becomes the variable "processedRequest" in this statement "processedRequest = multipartResolver.resolveMultipart(processedRequest)"?
+		A MultipartHttpServletRequest.
+		A MultipartResolver.
+		A HttpServletRequest.
+		None of the others.
+
+	What is the main responsibility of the method "doFilterInternal"?
+		Verify a multipart request to obtain the original request with a MultipartHttpServletRequest.
+		Verify a request to obtain the original request with a MultipartHttpServletRequest.
+		Verify a HTTP request to obtain the original request with a MultipartHttpServletRequest.
+		Verify a multipart request to obtain the original request with a HttpServletRequest.
+
+	What is the action of the method "doFilter" of the interface "javax.servlet.FilterChain"?
+		It tries to invoke the next filter in the chain and, if the calling filter is the last filter in the chain, it tries to invoke the resource at the end.
+		It tries to invoke the next filter in the chain and, if the calling filter is the last filter in the chain, it stop the execution.
+		It tries to invoke the next filter in the chain.
+		It tries to invoke the last filter in the chain.
+
+spring-framework-master_DispatcherServlet_24
+	What are the attributes always set on the variable "request" of this method?
+		WEB_APPLICATION_CONTEXT_ATTRIBUTE and LOCALE_RESOLVER_ATTRIBUTE.
+		WEB_APPLICATION_CONTEXT_ATTRIBUTE and INPUT_FLASH_MAP_ATTRIBUTE.
+		WEB_APPLICATION_CONTEXT_ATTRIBUTE and OUTPUT_FLASH_MAP_ATTRIBUTE.
+		OUTPUT_FLASH_MAP_ATTRIBUTE and FLASH_MAP_MANAGER_ATTRIBUTE.
+
+	What does the method "logRequest" of the class "DispatcherServlet" return?
+		A log message.
+		A log file.
+		A warning.
+		A list of log messages.
+
+	With the method "setAttribute" of the interface "javax.servlet.http.HttpServletRequest", can the variable "request" contain more attribute?
+		Yes.
+		No.
+		There is maximum number.
+		Only two attributes.	
+
+OpenRefine-master_GetScatterplotCommand_1
+	What is the variable "sos" of this method?
+		An output stream for sending binary data to the client.
+		An alarm.
+		An output stream for sending binary data to the server.
+		An output stream for sending integer data to the client.
+
+	What does the method "draw" of the class "GetScatterplotCommand" do? 
+		Draw an image PNG.
+		Draw an image JPEG.
+		Draw a project.
+		Draw an image in the desired format.
+
+	Who inherits the method "close" from?
+		OutputStream.
+		BufferedWriter.
+		From no one. It belongs to the ServletOutputStream.
+		FileOutputStream.
+
+OpenRefine-master_ImportProjectCommand_1
+	In this method the variable "request" of this method is modified?
+		No, never.
+		Yes, always.
+		In this statement "internalImport(request, options, projectID)".
+		In this statement "respondWithErrorPage(request, response, "Failed to import project", e)".
+
+	What does the method "internalImport" of the class "ImportProjectCommand" do?
+		Import project from a Refine archive.
+		Import the URL from the stream.
+		Import project from the database.
+		Import the URL from the archive.
+	
+	When is "ServletException" of the package "javax.servlet" thrown?
+		A servlet can throw a general exception when it encounters difficulty.
+		A message with "Failed to import project. Reason unknown.".
+		A servlet can throw a general exception when it encounters a vulnerability.
+		A message with "Error!".
+
+OpenRefine-master_ReconJudgeSimilarCellsCommand_1
+	What does the variable "request" of the method do?
+		It serves as an argument to the servlet's service method.
+		It serves as an argument to the HttpServletRequest's method.
+		It serves as an argument only to the method "doGet".
+		It serves as an argument only to the method "doPost".
+
+	What is the main responsibility of the method "ReconJudgeSimilarCellsOperation"?
+		Returns a new ReconJudgeSimilarCellsOperation.
+		Returns a new AbstractOperation. 
+		Returns a new ReconCandidate.
+		Returns a new EngineConfig.	
+	
+	What does the method "getParameter" of the interface "javax.servlet.http.HttpServletRequest" return?
+		It returns the value of a request parameter as a String, or null if the parameter does not exist.
+		It can returns only the value of a request parameter as a String.
+		It can returns only null.
+		It can returns only the value of a request parameter as a File.
+
+VasSonic-master_SonicUtils_9
+	Which of the following claims about the variable "templatePath" is correct?
+		The file with the path of the directory with sonic template cache files.
+		The file with the path of the directory with sonic template files.
+		The file with the path of the directory with any template cache files.
+		None of the others.
+
+	What is the main responsibility of the method "SonicUtils"?
+		Build the template and data into HTML using the SHA-1.
+		Build the template and data into HTML.
+		Build a website into HTML using the SHA-1.
+		Build a website into HTML.
+
+	What does the method "exists" of the class "java.io.File" do?
+		It tests if and only if the file or directory is identified by this abstract pathname exists.
+		It tests if and only if the file is identified by this abstract pathname exists.
+		It tests if and only if the directory is identified by this abstract pathname exists.
+		It tests if and only if the file and directory is identified by this abstract pathname exists.
+
+android-async-http-master_AsyncHttpClient_4
+	What is the difference between the variable "url" and the variable "_url" of this methods?
+		The variable "url" is a string with a URL and it is valid without parameters. Instead, the variable "_url" is a decoded URL.
+		The variable "url" is an URL and it is valid without params. Instead, the variable "_url" is a decoded URL.
+		The variable "url" is a string with a URL and it is valid with parameters. Instead, the variable "_url" is a decoded URL.
+		No difference.
+
+	In this statement "URI _uri = new URI(_url.getProtocol(), _url.getUserInfo(), _url.getHost(), _url.getPort(), _url.getPath(), _url.getQuery(), _url.getRef());", what is the type of created URI?
+		Creates a hierarchical URI with these parameters (String and Integer) in input.
+		Creates a URI with the string concatenation of parameters in input.
+		Creates a URI with these parameters.
+		Creates a hierarchical URI with these parameters (only String) in input.
+
+	What does the method "toASCIIString()" do?
+		Returns the encoded URI to characters of the US-ASCII charset.
+		Returns the string with characters of the US-ASCII charset to URI.
+		Returns the encoded URI to UTF-8.
+		Returns the string in UTF-8 to URI.
+
+disruptor-master_FizzBuzzQueueProcessor_4
+	Which of the following claims about the variable "fizzInputQueue" is correct?
+		A queue of Long to wait for itself to not be empty in the recovery of an element and to wait for some space available in the queue in the storage of an element.
+		A queue of Long to wait for itself to not be empty in the storage of an element and to wait for some space available in the queue in the recovery of an element.
+		A queue of Boolean to wait for itself to not be empty in the recovery of an element and to wait for some space available in the queue in the storage of an element.
+		A queue of Boolean to wait for itself to not be empty in the storage of an element and to wait for some space available in the queue in the recovery of an element.
+
+	In this method, what happens in the BUZZ case of the switch?
+		Take the head in the queue, match the variable "values"'s the form of 5 with 0 and put the boolean value in the "buzzOutputQueue".
+		Take the end in the queue, match the variable "values"'s the form of 5 with 0 and put the boolean value in the "buzzOutputQueue".	
+		Take the end in the queue, match the variable "values"'s the form of 5 with 0 and put the long value in the "buzzOutputQueue".
+		Take the head in the queue, match the variable "values"'s the form of 5 with 0 and put the long value in the "buzzOutputQueue".
+
+	What does the method "take" of the interface "java.util.concurrent.BlockingQueue<E>"?
+		Recovers and deletes the head of this queue. Finally it wait that an element becomes available.
+		Recovers and deletes the head of this queue.
+		Recovers and deletes the end of this queue.  Finally it wait that an element becomes available.
+		Recovers and deletes the end of this queue.
+
+fastjson-master_JavaBeanInfo_8
+	What is the character "?" of the type of the variable "constructor"?
+		A jolly.
+		A old type in Java, that it is renamed with "?".
+		A normal question mark.
+		The new type called "Answer", but it is used a symbol. 
+
+	What is the clause "instanceof"?
+		A binary operator used to test if an instance is a subtype of a given type.	
+		A relational operator used to test if an instance is a subtype of a given type.
+		A logical operator used to test if an instance is a subtype of a given type.
+		A conditional operator used to test if an instance is a subtype of a given type.
+
+	What does the method "getAnnotation" of the class "java.lang.reflect.Constructor<T>" returns?
+		The element's annotation for the specified type if an annotation is present, else null.
+		The element's annotation for any type if an annotation is present, else null.
+		The element's annotation for the specified type if an annotation is absent, else false.
+		The element's annotation for any type if an annotation is absent, else false.
+
+graal-master_Inflation_11
+	Which of the following claims about the variable "annotatedSuperclass" is correct?
+		The potentially annotated use of a type in the program currently running in the VM.
+		The potentially annotated use of a type in the program currently running.
+		The potentially annotated use of a type in the program currently running, whose the declaration may have bounds which themselves represent annotated uses of types.
+		The potentially annotated use of a type in the program currently running, whose the declaration may have upper or lower bounds may themselves represent annotated uses of types.
+
+	What happens in the first "try" of this method?
+		Match if the variable "javaClass" represent the use of a type to specify the superclass of the entity represented by this Class object. At the end, match if "annotatedSuperclass" is not a null value and if this is a type not allowed.
+		Match if the variable "javaClass" represent the use of a type to specify the superclass of the entity represented by this Class object. At the end, match if "annotatedSuperclass" is a null value and if this is a type allowed.
+		Match if the variable "javaClass" represent the use of a type to specify the superclass of the entity represented by this Class object.
+		Match if the variable "javaClass" represent the superclass of the entity represented by this Class object.
+
+	When is "MalformedParameterizedTypeException" of the package "javax.servlet" thrown?
+		Thrown when a semantically malformed parameterized type encounter a reflective method that needs to instantiate it.
+		Thrown when a lessically malformed parameterized type encounter a reflective method that needs to instantiate it.
+		Thrown when a sintatically malformed parameterized type encounter a reflective method that needs to instantiate it.
+		Thrown when a malformed parameterized type encounter a reflective method that needs to instantiate it.
+		
+graal-master_MonitorSupport_10
+	Which of the following claims about the variable "existingMonitor" is correct?
+		A reentrant mutual exclusion Lock with the same basic behavior and semantics as the implicit monitor lock accessed with synchronized methods and statement, but with more capabilities.
+		A reentrant mutual exclusion Lock with the different basic behavior and semantics as the implicit monitor lock accessed with synchronized methods and statement, but with more capabilities.
+		A reentrant mutual exclusion Lock with the different basic behavior and semantics as the explicit monitor lock accessed with synchronized methods and statement.
+		A reentrant mutual exclusion Lock with the same basic behavior and semantics as the implicit monitor lock accessed with synchronized methods and statement, but with less capabilities.
+	
+	Why there are these two variables "additionalMonitorsLock" and "additionalMonitors" in this method?
+		There is a need to synchronize for preventing multiple accesses and simultaneous changes with two storage.
+		There is a need to synchronize for preventing single accesses and simultaneous changes with two variable.
+		There is a need to synchronize for preventing single accesses with two storage.
+		There is a need to synchronize for preventing a single access.
+		
+	What does the variable "monitor" indicate in this context?
+		A mechanism for handling concurrency.
+		An abstraction of the screen.
+		A mechanism for handling more efficiently the memory.
+		An abstraction of the system memory.
+
+guava-master_TypeToken_19
+	Which of the following claims about the variable "rawType" is correct?
+		The Type object.
+		The original type.
+		The parameterized type.
+		the annotated type.
+	
+	In this method why there are three call of methods to the "getRawType"?
+		Because there are two calls in two different packages and one call is for the recursive method.
+		Because there is the same call of the same package, but with a number different of parameters.
+		Because there are three calls in three different packages.
+		Because there are two calls of the same package with a number different of parameters and one call is for the recursive method.
+
+	What does this call of method "((WildcardType) type).getUpperBounds()[0]" return?
+		The first element of an array of Type objects of the upper bounds of this type variable.
+		An array of Type objects of the upper bounds of this type variable.
+		The first element equal to 0 of an array of Type objects of the upper bounds of this type variable.
+		The first element different from 0 of an array of Type objects of the upper bounds of this type variable.
+
+guava-master_TypeToken_19
+	What does the variable "supertype" of this method indicate?
+		The common superinterface for all types in the Java programming language.
+		The type that include subtype.
+		The common super interface for type variable of kinds.
+		None of the others.
+	
+	What does the method "someRawTypeIsSubclassOf" of the class "TypeToken" return?
+		A boolean.
+		A Class<?> object.
+		A Type object.
+		A TypeVariable object.
+		
+	What does the method "getBounds()" of the interface "java.lang.reflect.TypeVariable<D>" return?
+		Returns an array with one or more upper bounds of a given type variable.
+		Returns an array with one or more upper bounds and one or more lower bounds of a given type variable.
+		Returns an array with one or more lower bounds.
+		Returns a list with one or more upper bounds and one or more lower bounds of a given type variable.
+
+druid-master_DruidPooledPreparedStatement_12
+	What the variable "stmt" declared in the class "DruidPooledPreparedStatement" is?
+		An object that represents a precompiled SQL statement. 
+		An interface used to execute SQL stored procedures.
+		An object used for executing a static SQL statement.
+		None of the others.
+	
+	What does the method "setQueryTimeout" of the interface "java.sql.PreparedStatement" do?
+		Sets the number of seconds the driver will wait for a Statement object to execute to the given number of seconds. 
+		Sets with a boolean value if the driver will wait for the query completion.		
+		Retrieves the number of seconds the driver will wait for a Statement object to execute.
+		Sets the number of attempts the driver will make to perform the query.
+	
+	What does the method "setFetchSize" of the interface "java.sql.PreparedStatement" do?
+		Gives the JDBC driver a hint as to the number of rows that should be fetched from the database when more rows are needed for ResultSet objects generated by this Statement. 
+		Sets the limit for the maximum number of bytes that can be returned for character and binary column values in a ResultSet object produced by this Statement object.
+		Sets the limit for the maximum number of rows that any ResultSet object generated by this Statement object can contain to the given number.
+		None of the others.
+
+druid-master_DruidConnectionHolder_27
+	What the variable "stmt" in this method is?
+		An object used for executing a static SQL statement. 
+		An object that represents a precompiled SQL statement.
+		An interface used to execute SQL stored procedures.
+		None of the others.
+	
+	What does the method "setTransactionIsolation" of the interface "java.sql.Connection" do?
+		Attempts to change the transaction isolation level for this Connection object to the one given. 
+		Changes the transaction isolation level for this Connection object to the one given.
+		Attempts to change the transaction isolation level for this Statement object to the one given.
+		Changes the transaction isolation level for this PreparedStatement object to the one given.
+	
+	What does the method "setHoldability" of the interface "java.sql.Connection" do?
+		Changes the default holdability of ResultSet objects created using this Connection object to the given holdability. 
+		Sets the default holdability of ResultSetMetaData objects.
+		Changes the default holdability of ResultSetMetaData objects created using this Connection object to the given holdability.
+		None of the others.
+
+druid-master_OracleValidConnectionChecker_3
+	What does the object "conn" of this method represent?
+		A connection with a specific database. 
+		An object that represents a precompiled SQL statement.
+		A connection with an undefined database.
+		An object that is used to identify a generic SQL type.
+
+	What does the method "executeQuery" of the interface "java.sql.Statement" return?
+		A single ResultSet object. 
+		A list of String objects.
+		Nothing, it is a void method.
+		Multiple ResultSet objects.
+
+	What does the method "createStatement" of the interface "java.sql.Connection" do?
+		Creates a Statement object for sending SQL statements to  the database. 
+		Creates a Statement object that will generate ResultSet objects with the given type and concurrency.
+		Creates a Statement object that will generate ResultSet objects with the given type, concurrency, and holdability.
+		None of the others.	
+
+druid-master_CaseKylin_mysql_5
+	What the variable "rs" of this method is?
+		A table of data representing a database result set, which is usually generated by executing a statement that queries the database. 
+		A table of data representing an instance of an SQL structured type or an SQL distinct type.
+		An object that can be used to get information about the types and properties for each parameter marker in a PreparedStatement object.
+		None of the others.
+
+	What does the method "prepareStatement" of the interface "java.sql.Connection" do?
+		Creates a PreparedStatement object for sending parameterized SQL statements to the database. 
+		Creates a default PreparedStatement object capable of returning the auto-generated keys designated by the given array.
+		Creates a default PreparedStatement object that has the capability to retrieve auto-generated keys.
+		Creates a PreparedStatement object that will generate ResultSet objects with the given type and concurrency.
+
+	What does the method "getInt" of the interface "java.sql.ResultSet" do?
+		Retrieves the value of the designated column in the current row of this ResultSet object. 
+		Retrieves the row values from the ResultSet object.
+		Retrieves the value of the designated row in the current column of this ResultSet object.
+		Retrieves the current row number of this ResultSet object.
+
+druid-master_Oracle_Case4_7
+	What the variable "stmt" of this method is?
+		An object that represents a precompiled SQL statement. 
+		An interface used to execute SQL stored procedures.
+		An object used for executing a static SQL statement.
+		An object that is used to identify a generic SQL type.	
+
+	What does the method "setInt" of the interface "java.sql.PreparedStatement" do?
+		None of the others.   
+		Sets the designated parameter to the given java.sql.Clob object.
+		Sets the designated parameter to the given input stream.
+		Sets the designated parameter to the given Java double value.
+
+	What does the method "executeQuery" of the interface "java.sql.PreparedStatement" do?
+		Executes the SQL query in this PreparedStatement object and returns the ResultSet object generated by the query. 
+		Executes the SQL statement in this PreparedStatement object, which may be any kind of SQL statement.
+		Executes the SQL statement in this PreparedStatement object, which must be an SQL Data Manipulation Language (DML) statement, such as INSERT, UPDATE or DELETE; or an SQL statement that returns nothing, such as a DDL statement.
+		Executes the SQL statement in this Statement object.
+
+druid-master_ResourceServlet_5
+	What the variable "response" of this method  extend?	
+		The ServletResponse interface. 
+		The ServletRequest interface. 
+		The ServletHttpResponse object.
+		None of the others.
+
+	What does the method "sendRedirect" of the interface "javax.servlet.http.HttpServletResponse" do?
+		Sends a temporary redirect response to the client using the specified redirect location URL and clears the buffer. 
+		Sends a temporary redirect response to the client using the specified status and clears the buffer.
+		Sends a temporary redirect response to the server using the specified status and clears the buffer.
+		Sends an error response to the client using the specified status code and clears the buffer.
+
+	What does the method "sendContentType" of the interface "javax.servlet.http.HttpServletResponse" do?
+		Sets the content type of the response being sent to the client, if the response has not been committed yet. 
+		Sets the content type of the request being sent to the client.
+		Sets the content type of the response in HTTP servlets, this method sets the HTTP Content-Length header.
+		Sets the locale of the response, if the response has not been committed yet.
+		
+druid-master_WallTableStat_22
+	What does the method "addAndGet" of the class "java.util.concurrent.atomic.AtomicLongFieldUpdater" do?
+		Atomically adds the given value to the current value of the field of the given object managed by this updater.
+		Atomically increments by one the current value of the field of the given object managed by this updater.
+		Atomically decrements by one the current value of the field of the given object managed by this updater.
+		Atomically updates the field of the given object managed by this updater with the results of applying the given function to the current and given values, returning the updated value.
+
+	What the variable "truncateCountUpdater" into this method is?
+		A global variable.
+		A parameter.
+		A local constant.
+		A local variable.
+
+	What is the "deleteCountUpdater" into this method?
+		A reflection-based utility that enables atomic updates to designated volatile long fields of designated classes.
+		An interface that enables atomic updates to designated volatile long fields of designated classes.
+		An object ables to update long values.
+		None of the others.
+
+bytecode-viewer-master_Scalr_3
+	What does the method "drawImage" of the class "java.awt.Graphics" do?
+		Draws as much of the specified area of the specified image as is currently available, scaling it on the fly to fit inside the specified area of the destination drawable surface.
+		Draws as much of the specified image as has already been scaled to fit inside the specified rectangle.
+		Draws the text given by the specified character array, using this graphics context's current font and color.
+		Draws the outline of a circular or elliptical arc covering the specified rectangle.
+
+	What the object "result" in this method represent?
+		An Image object with an accessible buffer of image data.
+		A buffer.
+		An Image object with an accessible buffer of binary data.
+		None of the others.
+
+	What does the method "createOptimalImage" in the class "Scalr" do?
+		If wight and height are both greater than zero, it creates a BufferedImage object with the given dimensions and the most optimal RGB type.
+		It creates an Image object with the given dimensions and the most optimal RGB type.
+		If wight and height are equal, it throws an exception.
+		It creates the most beautiful image ever.
+
+bazel-master_AndroidResourceOutputs_6
+	What does the method "relativize" of the interface "java.nio.file.Path" do?
+		Constructs a relative path between this path and a given path.
+		Constructs an absolute path between this path and a given path.
+		Constructs a relative path between the root and a given path.
+		Returns the root component of this path.
+
+	What the variable "databindingResourcesRoot" into this method is?
+		A parameter.
+		A global variable.	
+		None of the others.
+		A local variable.
+
+	What does the method "subpath" of the interface "java.nio.file.Path" do?
+		Returns a relative Path that is a subsequence of the name elements of this path.
+		Returns a Path object representing the absolute path of this path.
+		Returns a Path object representing the relative path of this path.
+		Returns an absolute Path that is a subsequence of the name elements of this path.
+		
+bazel-master_AndroidResourceProcessor_1
+	What does the method "prepareOutputPath" of the class "AndroidResourceProcessor" return?
+		A path.
+		A directory.
+		A file.
+		A String.
+
+	What does the method "getParent" return?
+		The parent path, or null if this path does not have a parent.
+		The root component of this path as a Path object, or null if this path does not have a root component.
+		The name of the file or directory denoted by this path as a Path object.
+		The name of the parent file or directory.
+
+	What does the variable "androidJar" into this method is?
+		An object that may be used to locate a file in a file system.
+		The jar file of an Android project.
+		An object that represents the jar file path.
+		None of the others. 
+
+bazel-master_AppleConfiguration_10
+	What is the main responsibility of the "getMultiArchPlatform" method?
+		Gets the current configuration ApplePlatform for the given PlatformType.
+		Gets the "effective" architecture(s) for the given PlatformType.
+		Gets the best architecture for the given PlatformType.
+		Gets the PlatformType for the given architecture.
+
+	What the variable "arch" into this method is?
+		A String.
+		An arch.
+		An Architecture object.
+		A GNU/Linux distribution.
+
+	What does the method "getMultiArchitectures" of the class "AppleConfiguration" return?
+		Gets the "effective" architecture(s) for the given PlatformType.
+		The single "effective" platform for this configuration's PlatformType and architecture.
+		The single "effective" architecture for this configuration's PlatformType.
+		None of the others.
+
+elasticsearch-master_GeoDistanceIT_3
+	What the variable "cities" of this method is?
+		An ArrayList.
+		A List of String.
+		A String.
+		An int.
+
+	What does the method "addAll" of the interface "java.util.List" return?
+		A boolean.
+		Nothing, it is a void method.
+		All the elements in the specified collection to the end of this list.
+		A List object.
+
+	What does the command "Array.asList" into this method return?
+		A fixed-size list backed by the specified array.
+		A string representation of the contents of the specified array.
+		An empty List.
+		An array containing all of the elements in this list in proper sequence.
+
+elasticsearch-master_XPackRestIT_7
+	What the "nodes" variable into this method is?
+		A Map.
+		A List.
+		An Array.
+		A String
+
+	What is the main responsibility of the "disableMonitoring()" method?
+		None of the others.
+		Enable monitoring and waits for monitoring documents.
+		Enable monitoring only if testName contains the String "=monitoring/".
+		Turn off the monitor.
+
+	What does the "put" method of the "java.util.Map" interface do?
+		Associates the specified value with the specified key in this map.
+		Copies all of the mappings from the specified map to this map.
+		Associates the specified value with a random key in this map.
+		Associates a random value with the specified key in this map.
+
+elasticsearch-master_DatafeedConfigProviderIT_4
+	What the variable "indexResponseHolder" in this method is?
+		An object reference that may be updated atomically.
+		An object reference that may be updated manually.
+		An index.
+		A ResponseHolder object.
+
+	What does the command "deleteResponseHolder.get()" return?
+		The current value of deleteResponseHolder.
+		The String representation of the current value of deleteResponseHolder.
+		The deleteResponseHolder object.
+		None of the others.
+
+	How many "df2" datafeed allows the method?
+		One.
+		At most two.
+		Zero.
+		Infinite value.
+		
+elasticsearch-master_JobConfigProviderIT_5
+	What does not this method do?
+		Duplicate job.
+		Delete job.
+		Read deleted job.
+		Delete deleted job.
+	What the variable "exceptionHolder" into this method is?
+		An object reference that may be updated atomically.
+		An object reference that may be updated manually.
+		An index.
+		A ResponseHolder object.
+	What the method "get()" of the class "java.util.concurrent.atomic.AtomicReference" do?
+		Gets the current value of an AtomicReference object.
+		Gets the older value of an Atomic Reference object.
+		Atomically sets to the given value and returns the old value.
+		Gets the AtomicReference object.
+
+bazel-master_SkylarkSemanticsOptions_1
+	What is the variable "experimentalCcSkylarkApiEnabledPackages" declared in the class "SkylarkSemanticsOptions"?
+		It store list of packages for the C++ Starlark API.
+		It store list of packages for the C# Skylark API.
+		It store list of packages for the Cc Skylark API.
+		It store list of packages for the C# API.
+	
+	What is Skylark?
+		The language used to specify builds in Bazel.
+		A framework for web applications for Bazel
+		The tester of Bazel.
+		A server for Bazel.		
+
+	In this method there is the following comment "Add new options here in alphabetic order". Why is used an alphabetic order?
+		For the correctness and readability.
+		For the security.
+		For the relialability.
+		For the testing.
